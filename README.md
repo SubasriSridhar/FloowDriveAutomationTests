@@ -76,7 +76,8 @@ Run a test using
 
 Verify Test reports from <*Project>\target\cucumber-reports\advanced-reports\cucumber-html-reports 
 
-<img src="C:\Users\91979\AppData\Roaming\Typora\typora-user-images\image-20200331115601133.png" alt="image-20200331115601133" style="zoom:50%;" />
+![image-20200331115601133](https://user-images.githubusercontent.com/34976961/78021610-6c017e00-734b-11ea-9b48-b5cd0880da5e.png)
+
 
 
 
