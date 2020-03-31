@@ -58,7 +58,7 @@ Gherkin
 
 2.  Packages & Directory Structure
 
-   <img src="C:\Users\91979\AppData\Roaming\Typora\typora-user-images\image-20200331103435153.png" alt="image-20200331103435153" style="zoom:50%;" />
+![image-20200331103435153](https://user-images.githubusercontent.com/34976961/78021503-42485700-734b-11ea-942f-4e9114d437a0.png)
 
 
 
