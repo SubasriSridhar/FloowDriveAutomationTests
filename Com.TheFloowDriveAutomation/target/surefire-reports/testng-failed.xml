@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Product Test Suite]" parallel="tests">
+  <test name="Product Acceptance Tests(failed)" parallel="tests">
+    <classes>
+      <class name="Nexus5xTestRunner">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="setUpTest"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Nexus5xTestRunner -->
+    </classes>
+  </test> <!-- Product Acceptance Tests(failed) -->
+</suite> <!-- Failed suite [Product Test Suite] -->

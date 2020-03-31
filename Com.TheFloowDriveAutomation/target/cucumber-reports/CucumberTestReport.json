@@ -1,0 +1,448 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-31T10:50:28.108Z",
+        "line": 4,
+        "name": "01  Floowdrive home screen verification",
+        "description": "",
+        "id": "homescreen-verification-of-the-application;01--floowdrive-home-screen-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 89568600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The FloowDrive app has been launched and open",
+            "match": {
+              "location": "BaseSteps.isBrandingLogoPresent()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176334700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the \"Registration\" text is available in Registration screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Registration",
+                  "offset": 5
+                }
+              ],
+              "location": "BaseSteps.isRegistrationTextPresent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4288853400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on \"Already registered\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Already registered",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.alreadyLogin(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5147851900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the \"Login\" text is available in Login Screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 5
+                }
+              ],
+              "location": "BaseSteps.validateLoginText(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3929489300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter Username as \"subasri.sridhar95@gmail.com\" and Password as \"Subasri@95\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "subasri.sridhar95@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "Subasri@95",
+                  "offset": 67
+                }
+              ],
+              "location": "BaseSteps.enterLoginCredentials(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2540879100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on login",
+            "match": {
+              "location": "BaseSteps.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1182135400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on \"Grant permission\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Grant permission",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.alreadyLogin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66462600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on \"ALLOW\"",
+            "match": {
+              "location": "HomeScreenSteps.clickonAllowPermissions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2169548500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on \"Get Started\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Get Started",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.alreadyLogin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1270589900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on \"Settings\"",
+            "match": {
+              "location": "HomeScreenSteps.clickonSettings()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4052963700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Go back",
+            "match": {
+              "location": "HomeScreenSteps.GoBack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434466800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Recorder and Pause buttons are clickable",
+            "match": {
+              "location": "HomeScreenSteps.verifyRecAndPausebutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13093843000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Swipe check the following scoring methodology",
+            "match": {
+              "location": "HomeScreenSteps.verifyScoringMethodology(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Score"
+                ]
+              },
+              {
+                "cells": [
+                  "Smooth Driving"
+                ]
+              },
+              {
+                "cells": [
+                  "Mobile Use"
+                ]
+              },
+              {
+                "cells": [
+                  "Speed"
+                ]
+              },
+              {
+                "cells": [
+                  "Fatigue"
+                ]
+              },
+              {
+                "cells": [
+                  "Time of Day"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148315800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify \"0\" numbers of \"Trips\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 8
+                },
+                {
+                  "val": "Trips",
+                  "offset": 23
+                }
+              ],
+              "location": "HomeScreenSteps.verifyNoTrips(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127917500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify \"0\".\"0\" numbers of \"miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 8
+                },
+                {
+                  "val": "0",
+                  "offset": 12
+                },
+                {
+                  "val": "miles",
+                  "offset": 27
+                }
+              ],
+              "location": "HomeScreenSteps.verifyNoMiles(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4717251200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the app page has following",
+            "match": {
+              "location": "RegisterScreenSteps.assertTexts(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Stationary"
+                ]
+              },
+              {
+                "cells": [
+                  "Score history"
+                ]
+              },
+              {
+                "cells": [
+                  "No scores yet"
+                ]
+              },
+              {
+                "cells": [
+                  "Check back when you\u0027ve recorded your first trip"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1796402400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "swipe left",
+            "match": {
+              "location": "HomeScreenSteps.swipeLeft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1793388000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "swipe left",
+            "match": {
+              "location": "HomeScreenSteps.swipeLeft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2258198400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "click on \"About\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "About",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.alreadyLogin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3183446500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "click on \"Log out\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log out",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.alreadyLogin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1380484400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click on \"OK\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.alreadyLogin(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Nexus5XOreo"
+          },
+          {
+            "name": "@Nexus6pMarshmallow"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Homescreen verification of the application",
+    "description": "",
+    "id": "homescreen-verification-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Homescreen.feature",
+    "tags": [
+      {
+        "name": "@Nexus5XOreo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Nexus6pMarshmallow",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 14
+        }
+      },
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 34
+        }
+      }
+    ]
+  }
+]
