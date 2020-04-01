@@ -1,4 +1,5 @@
 package pages;
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.android.AndroidKeyCode;
@@ -32,8 +33,10 @@ public class HomeScreenPages extends RegistrationPage {
 
     public AndroidDriver driver = Driver.appDriver();
     public Dimension size;
+    public double startPercentage;
+    public double finalPercentage;
+    public double anchorPercentage;
 
-    private static TouchAction touchAction = new TouchAction(appDriver());
 
     private static Logger log = LogManager.getLogger(BasePage.class.getName());
     private String getPageSource() { return driver.getPageSource(); }
@@ -112,9 +115,25 @@ public class HomeScreenPages extends RegistrationPage {
         waitForSecs(2);
         log.info("back" );
     }
+/*
     public void swipeLeft() throws InterruptedException {
         meSwipe(LEFT,30);
         log.info("swipe left" );
         waitForSecs(1);
+
          }
+*/
+
+    public void swipeLeft() throws Exception {
+        //AppiumDriver driver, double startPercentage, double finalPercentage, double anchorPercentage, int duration
+        //AppiumDriver driver1 = Driver.appDriver();
+        startPercentage=0.9;
+        finalPercentage=0.1;
+        anchorPercentage=0.7;
+        Dimension size = driver.manage().window().getSize();
+        int anchor = (int) (size.height * anchorPercentage);
+        int startPoint = (int) (size.width * startPercentage);
+        int endPoint = (int) (size.width * finalPercentage);
+        new TouchAction(driver).press(PointOption.point(startPoint, anchor)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(2000))).moveTo(PointOption.point(endPoint, anchor)).release().perform();
+    }
 }

@@ -1,4 +1,4 @@
-@Nexus6pMarshmallow @Nexus5XOreo  @Smoke
+@Nexus5XOreo  @Smoke
 Feature: Validate login feature with invalid credentials
 
     Scenario: 02 Verify If the user is Already registered scenario

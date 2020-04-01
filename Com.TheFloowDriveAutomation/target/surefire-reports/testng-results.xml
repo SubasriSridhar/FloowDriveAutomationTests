@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Product Test Suite" duration-ms="72103" started-at="2020-03-31T10:50:10Z" finished-at="2020-03-31T10:51:22Z">
+  <suite name="Product Test Suite" duration-ms="98333" started-at="2020-03-31T11:23:40Z" finished-at="2020-03-31T11:25:18Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Product Acceptance Tests" duration-ms="72103" started-at="2020-03-31T10:50:10Z" finished-at="2020-03-31T10:51:22Z">
+    <test name="Product Acceptance Tests" duration-ms="98333" started-at="2020-03-31T11:23:40Z" finished-at="2020-03-31T11:25:18Z">
       <class name="Nexus5xTestRunner">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="setUpTest" is-config="true" duration-ms="17073" started-at="2020-03-31T11:50:10Z" finished-at="2020-03-31T11:50:27Z">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="setUpTest" is-config="true" duration-ms="25968" started-at="2020-03-31T12:23:40Z" finished-at="2020-03-31T12:24:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="setUpClass" is-config="true" duration-ms="131" started-at="2020-03-31T11:50:27Z" finished-at="2020-03-31T11:50:27Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="setUpClass" is-config="true" duration-ms="249" started-at="2020-03-31T12:24:06Z" finished-at="2020-03-31T12:24:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="runScenario" duration-ms="54073" started-at="2020-03-31T11:50:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-31T11:51:21Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="runScenario" duration-ms="71497" started-at="2020-03-31T12:24:06Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-31T12:25:18Z">
           <params>
             <param index="0">
               <value>
@@ -31,14 +31,59 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SUBASRISRIDHAR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\91979\Documents\Ne..., appPackage: com.thefloow.thefloowltd.fl..., avd: Nexus5XOreo, databaseEnabled: false, desired: {app: C:\Users\91979\Documents\Ne..., avd: Nexus5XOreo, deviceName: Nexus5XOreo, platformName: android, systemPort: 8201, udid: emulator-5554}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, systemPort: 8201, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a715defb-3ea4-405b-bbc3-9900ecd19c4f
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("About").instance(0))}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SUBASRISRIDHAR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\91979\Documents\Ne..., appPackage: com.thefloow.thefloowltd.fl..., avd: Nexus5XOreo, databaseEnabled: false, desired: {app: C:\Users\91979\Documents\Ne..., avd: Nexus5XOreo, deviceName: Nexus5XOreo, platformName: android, systemPort: 8201, udid: emulator-5554}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, systemPort: 8201, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a715defb-3ea4-405b-bbc3-9900ecd19c4f
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("About").instance(0))}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at utils.extensions.MobileElementExtensions.scrollAndClick(MobileElementExtensions.java:81)
+	at pages.BasePage.clickAlreadyLogin(BasePage.java:66)
+	at steps.BaseSteps.alreadyLogin(BaseSteps.java:23)
+	at ✽.click on "About" button(file:src/test/resources/features/Homescreen.feature:34)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="tearDownClass" is-config="true" duration-ms="219" started-at="2020-03-31T11:51:21Z" finished-at="2020-03-31T11:51:22Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="tearDownClass" is-config="true" duration-ms="203" started-at="2020-03-31T12:25:18Z" finished-at="2020-03-31T12:25:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="tearDownTest" is-config="true" duration-ms="543" started-at="2020-03-31T11:51:22Z" finished-at="2020-03-31T11:51:22Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:Nexus5xTestRunner@32d992b2]" name="tearDownTest" is-config="true" duration-ms="287" started-at="2020-03-31T12:25:18Z" finished-at="2020-03-31T12:25:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->

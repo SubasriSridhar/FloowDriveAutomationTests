@@ -1,4 +1,4 @@
-@Nexus5XOreo @Nexus6pMarshmallow @Smoke
+@Nexus5XOreo @Smoke
 
 Feature: Homescreen verification of the application
   Scenario: 01  Floowdrive home screen verification

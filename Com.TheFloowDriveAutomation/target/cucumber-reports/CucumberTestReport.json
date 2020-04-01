@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-03-31T10:50:28.108Z",
+        "start_timestamp": "2020-03-31T11:24:07.276Z",
         "line": 4,
         "name": "01  Floowdrive home screen verification",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 89568600,
+              "duration": 207889400,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 176334700,
+              "duration": 708269800,
               "status": "passed"
             },
             "line": 7,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 4288853400,
+              "duration": 7429176000,
               "status": "passed"
             },
             "line": 8,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 5147851900,
+              "duration": 5152475600,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 3929489300,
+              "duration": 4981728400,
               "status": "passed"
             },
             "line": 10,
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 2540879100,
+              "duration": 2574332900,
               "status": "passed"
             },
             "line": 11,
@@ -113,7 +113,7 @@
           },
           {
             "result": {
-              "duration": 1182135400,
+              "duration": 2848950200,
               "status": "passed"
             },
             "line": 12,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 66462600,
+              "duration": 108918400,
               "status": "passed"
             },
             "line": 13,
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 2169548500,
+              "duration": 3282807700,
               "status": "passed"
             },
             "line": 14,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 1270589900,
+              "duration": 2421669500,
               "status": "passed"
             },
             "line": 15,
@@ -173,7 +173,7 @@
           },
           {
             "result": {
-              "duration": 4052963700,
+              "duration": 5759269800,
               "status": "passed"
             },
             "line": 16,
@@ -185,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 434466800,
+              "duration": 942422000,
               "status": "passed"
             },
             "line": 17,
@@ -197,7 +197,7 @@
           },
           {
             "result": {
-              "duration": 13093843000,
+              "duration": 19020229400,
               "status": "passed"
             },
             "line": 18,
@@ -241,7 +241,7 @@
           },
           {
             "result": {
-              "duration": 148315800,
+              "duration": 458309700,
               "status": "passed"
             },
             "line": 25,
@@ -263,7 +263,7 @@
           },
           {
             "result": {
-              "duration": 127917500,
+              "duration": 227288100,
               "status": "passed"
             },
             "line": 26,
@@ -289,7 +289,7 @@
           },
           {
             "result": {
-              "duration": 4717251200,
+              "duration": 6817871300,
               "status": "passed"
             },
             "line": 27,
@@ -323,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 1796402400,
+              "duration": 2036447100,
               "status": "passed"
             },
             "line": 32,
@@ -335,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 1793388000,
+              "duration": 1929719000,
               "status": "passed"
             },
             "line": 33,
@@ -347,8 +347,9 @@
           },
           {
             "result": {
-              "duration": 2258198400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027SUBASRISRIDHAR\u0027, ip: \u0027192.168.137.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: C:\\Users\\91979\\Documents\\Ne..., appPackage: com.thefloow.thefloowltd.fl..., avd: Nexus5XOreo, databaseEnabled: false, desired: {app: C:\\Users\\91979\\Documents\\Ne..., avd: Nexus5XOreo, deviceName: Nexus5XOreo, platformName: android, systemPort: 8201, udid: emulator-5554}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, systemPort: 8201, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: a715defb-3ea4-405b-bbc3-9900ecd19c4f\n*** Element info: {Using\u003d-android uiautomator, value\u003dnew UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"About\").instance(0))}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)\r\n\tat utils.extensions.MobileElementExtensions.scrollAndClick(MobileElementExtensions.java:81)\r\n\tat pages.BasePage.clickAlreadyLogin(BasePage.java:66)\r\n\tat steps.BaseSteps.alreadyLogin(BaseSteps.java:23)\r\n\tat ✽.click on \"About\" button(file:src/test/resources/features/Homescreen.feature:34)\r\n",
+              "duration": 4109906900,
+              "status": "failed"
             },
             "line": 34,
             "name": "click on \"About\" button",
@@ -365,8 +366,8 @@
           },
           {
             "result": {
-              "duration": 3183446500,
-              "status": "passed"
+              "duration": 15400,
+              "status": "skipped"
             },
             "line": 35,
             "name": "click on \"Log out\" button",
@@ -383,8 +384,8 @@
           },
           {
             "result": {
-              "duration": 1380484400,
-              "status": "passed"
+              "duration": 3700,
+              "status": "skipped"
             },
             "line": 36,
             "name": "click on \"OK\" button",

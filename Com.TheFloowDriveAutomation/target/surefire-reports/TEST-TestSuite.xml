@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="73.373" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="101.104" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
     <property name="java.vm.version" value="25.241-b07"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\91979\Documents\NewAppiumSetup\Com.TheFloowDriveAutomation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\91979\Documents\NewAppiumSetup\FloowDriveAutomationTests\Com.TheFloowDriveAutomation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\91979\Documents\NewAppiumSetup\Com.TheFloowDriveAutomation"/>
+    <property name="user.dir" value="C:\Users\91979\Documents\NewAppiumSetup\FloowDriveAutomationTests\Com.TheFloowDriveAutomation"/>
     <property name="java.runtime.version" value="1.8.0_241-b07"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
@@ -64,5 +64,53 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="runScenario" classname="Nexus5xTestRunner" time="54.074"/>
+  <testcase name="runScenario" classname="Nexus5xTestRunner" time="71.513">
+    <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;SUBASRISRIDHAR&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\91979\Documents\Ne..., appPackage: com.thefloow.thefloowltd.fl..., avd: Nexus5XOreo, databaseEnabled: false, desired: {app: C:\Users\91979\Documents\Ne..., avd: Nexus5XOreo, deviceName: Nexus5XOreo, platformName: android, systemPort: 8201, udid: emulator-5554}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, systemPort: 8201, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: a715defb-3ea4-405b-bbc3-9900ecd19c4f&#10;*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(&quot;About&quot;).instance(0))}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SUBASRISRIDHAR', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\91979\Documents\Ne..., appPackage: com.thefloow.thefloowltd.fl..., avd: Nexus5XOreo, databaseEnabled: false, desired: {app: C:\Users\91979\Documents\Ne..., avd: Nexus5XOreo, deviceName: Nexus5XOreo, platformName: android, systemPort: 8201, udid: emulator-5554}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, systemPort: 8201, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a715defb-3ea4-405b-bbc3-9900ecd19c4f
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("About").instance(0))}
+</failure>
+    <system-out><![CDATA[&amp#27;[35m[HTTP]&amp#27;[39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at doListen (net.js:1498:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)
+12:24:08.189 INFO  BasePage -:: The text Registration is present in the app screen's source.
+12:24:15.778 INFO  BasePage -:: The text Login is present in the app screen's source.
+12:24:25.760 INFO  BasePage -:: The loginEmail Located by By.chained({By.id: login_email})and the loginPasswordLocated by By.chained({By.id: login_password})is entered in the app screen's source.
+12:24:26.334 INFO  BasePage -:: Clicked on login button
+12:24:26.334 INFO  BasePage -:: 2 secs wait
+12:24:31.292 INFO  BasePage -clicked on allow permissions
+12:24:36.996 INFO  BasePage -clicked on settings
+12:24:42.756 INFO  BasePage -back
+12:24:43.698 INFO  BasePage - ::Is Rec and Pause button are enabled? true
+12:24:45.252 INFO  BasePage -The text Score is in the app screen's source.
+12:24:47.409 INFO  BasePage -The text Smooth Driving is in the app screen's source.
+12:24:51.328 INFO  BasePage -The text Mobile Use is in the app screen's source.
+12:24:54.771 INFO  BasePage -The text Speed is in the app screen's source.
+12:24:58.014 INFO  BasePage -The text Fatigue is in the app screen's source.
+12:25:00.677 INFO  BasePage -The text Time of Day is in the app screen's source.
+12:25:03.051 INFO  BasePage -The journeyCount 0 journeyCountCaptionTrips    0Trips
+12:25:03.208 INFO  BasePage -The totalDistance Located by By.chained({By.id: total_distance}) total_distance_decimal_partLocated by By.chained({By.id: total_distance_decimal_part})milesmiles
+12:25:04.823 INFO  BasePage -The text Stationary is in the app screen's source.
+12:25:06.164 INFO  BasePage -The text Score history is in the app screen's source.
+12:25:07.905 INFO  BasePage -The text No scores yet is in the app screen's source.
+12:25:10.222 INFO  BasePage -The text Check back when you've recorded your first trip is in the app screen's source.
+12:25:11.259 INFO  BasePage -swipe left
+12:25:13.188 INFO  BasePage -swipe left
+]]></system-out>
+    <system-err><![CDATA[Mar 31, 2020 12:24:03 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+Mar 31, 2020 12:24:06 PM cucumber.runtime.filter.TagExpressionOld isOldTagExpression
+WARNING: Found tags option '~@Ignore'. Support for '~@tag' will be removed from the next release of Cucumber-JVM. Please use 'not @tag' instead.
+Mar 31, 2020 12:24:07 PM cucumber.runtime.filter.TagExpressionOld isOldTagExpression
+WARNING: Found tags option '@DebugNexus5xOreo, @DebugNexus6pMarshmallow'. Support for '@tag1,@tag2' will be removed from the next release of Cucumber-JVM. Please use '@tag or @tag2' instead
+]]></system-err>
+  </testcase>
 </testsuite>
