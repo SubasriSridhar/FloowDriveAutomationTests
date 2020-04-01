@@ -60,6 +60,8 @@ Gherkin
 
 ![image-20200331103435153](https://user-images.githubusercontent.com/34976961/78021503-42485700-734b-11ea-942f-4e9114d437a0.png)
 
+## Testcases
+The test cases are focused on Homescreen features, login/logout and registration only. The test cases can be found under src/test/resources/features
 
 
 ## Running tests
